@@ -1,5 +1,4 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebaseriverpodtut/providers/auth_providers.dart';
 import 'package:firebaseriverpodtut/views/home_page.dart';
 import 'package:firebaseriverpodtut/views/login_page.dart';
 import 'package:flutter/material.dart';
@@ -7,11 +6,11 @@ import 'package:flutter_riverpod/all.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(ProviderScope(child: MyApp()));
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -33,7 +32,7 @@ class StartPage extends StatelessWidget {
           );
         }
         if (snapshot.connectionState == ConnectionState.done) {
-          return AuthChecker();
+          return Container();
         }
         //loading
         return Scaffold(
@@ -46,31 +45,3 @@ class StartPage extends StatelessWidget {
   }
 }
 
-class AuthChecker extends ConsumerWidget {
-  @override
-  Widget build(BuildContext context, ScopedReader watch) {
-    final _authState = watch(authStateProvider);
-    return _authState.when(
-      data: (value) {
-        if (value != null) {
-          return HomePage();
-        }
-        return LoginPage();
-      },
-      loading: () {
-        return Scaffold(
-          body: Center(
-            child: CircularProgressIndicator(),
-          ),
-        );
-      },
-      error: (_, __) {
-        return Scaffold(
-          body: Center(
-            child: Text("OOPS"),
-          ),
-        );
-      },
-    );
-  }
-}

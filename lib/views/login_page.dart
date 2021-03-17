@@ -1,22 +1,11 @@
-import 'package:firebaseriverpodtut/providers/auth_providers.dart';
-import 'package:firebaseriverpodtut/providers/login_page_providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/all.dart';
 
-class LoginPage extends ConsumerWidget {
-  void updateEmail(BuildContext context, String email) {
-    context.read(emailProvider).state = email;
-  }
-
-  void updatePassword(BuildContext context, String pass) {
-    context.read(passwordProvider).state = pass;
-  }
+class LoginPage extends StatelessWidget {
 
   @override
-  Widget build(BuildContext context, ScopedReader watch) {
-    final email = watch(emailProvider).state;
-    final pass = watch(passwordProvider).state;
-    final _auth = watch(authServicesProvider);
+  Widget build(BuildContext context) {
+
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -28,20 +17,20 @@ class LoginPage extends ConsumerWidget {
             ),
           ),
           TextField(
-            onChanged: (value) => updateEmail(context, value),
+            onChanged: (value) {},
             decoration: InputDecoration(
               hintText: 'Email',
             ),
           ),
           TextField(
-            onChanged: (value) => updatePassword(context, value),
+            onChanged: (value){},
             obscureText: true,
             decoration: InputDecoration(
               hintText: 'Password',
             ),
           ),
           RaisedButton(
-            onPressed: () => _auth.signIn(email: email, password: pass),
+            onPressed: () {},
             child: Text('Sign-in'),
           ),
         ],
