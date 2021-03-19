@@ -1,33 +1,128 @@
 {
   "project_info": {
-    "project_number": "164712922850",
-    "project_id": "trial-6e75c",
-    "storage_bucket": "trial-6e75c.appspot.com"
+    "project_number": "272787472942",
+    "project_id": "tutorials-f08b8",
+    "storage_bucket": "tutorials-f08b8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:164712922850:android:f122d5c296764df691e8bb",
+        "mobilesdk_app_id": "1:272787472942:android:d802721150fff1c9e715bf",
         "android_client_info": {
           "package_name": "com.abhishekmahajan.firebaseriverpodtut"
         }
       },
       "oauth_client": [
         {
-          "client_id": "164712922850-l8rp1e45dve6rl4rfnpmvq9h3e5tfdse.apps.googleusercontent.com",
+          "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBcno5wbxIxM1oU_1gR4B47Jbv97c-oiz8"
+          "current_key": "AIzaSyBj25x0K6q9_7GlMboEaCpvEUG9RO_8WVI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "164712922850-l8rp1e45dve6rl4rfnpmvq9h3e5tfdse.apps.googleusercontent.com",
+              "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272787472942:android:3126fa6c958d89f5e715bf",
+        "android_client_info": {
+          "package_name": "com.example.firebase_riverpod_tut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj25x0K6q9_7GlMboEaCpvEUG9RO_8WVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272787472942:android:fdf4378dbf81efb3e715bf",
+        "android_client_info": {
+          "package_name": "com.example.messenger_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272787472942-qgru92m50glp9u1vd6q1s35msghjfvir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.messenger_clone",
+            "certificate_hash": "033de755e1bcebf09808ddbf1504ea53aba4ad8e"
+          }
+        },
+        {
+          "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj25x0K6q9_7GlMboEaCpvEUG9RO_8WVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272787472942:android:1cc56cab5f2fb1f5e715bf",
+        "android_client_info": {
+          "package_name": "com.example.riverpod_with_firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj25x0K6q9_7GlMboEaCpvEUG9RO_8WVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272787472942-jva8l78jiqb72potrpv85k1tgs5e718l.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
